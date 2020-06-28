@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<indicators>
+   <indicator>                             //До трех индикаторов; первый квадратный, остальные кргулые
+          <position_x> int </position_x>   //Координата х
+	  <position_y> int </position_y>   //Координата y
+	  <type>  </type>                  //Не обрабатывается
+	  <portType> int </portType>       //Номер порта [0,1]
+	  <portNum> int </portNum>         //Номер числа порта [0,1] 
+	  <title> string </title>          //Подпись над индикатором
+	  <ColorTrue> 6666666 </ColorTrue> //Цвет активного индикатора
+	  <ColorFalse> 1000 </ColorFalse>  //Цвет неактивного индикатора
+   </indicator>
+   <indicator>
+          <position_x> 250 </position_x>   
+	  <position_y> 220 </position_y> 
+	  <type> boolean </type>
+	  <portType> 0 </portType> 
+	  <portNum> 1 </portNum> 
+	  <title> in[1] </title>
+	  <ColorTrue> 1000 </ColorTrue>
+	  <ColorFalse> 10000 </ColorFalse>
+   </indicator>
+   <indicator>
+          <position_x> 250 </position_x> 
+	  <position_y> 320 </position_y> 
+	  <type> boolean </type>
+	  <portType> 0 </portType> 
+	  <portNum> 0 </portNum> 
+	  <title> in[0] </title>
+	  <ColorTrue> 1000 </ColorTrue>
+	  <ColorFalse> 10000 </ColorFalse>
+   </indicator>
+</indicators>
